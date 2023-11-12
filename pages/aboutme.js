@@ -2,13 +2,19 @@ import React from 'react';
 
 export default function AboutMe() {
     return (
-        <div className="bg-gray-100 min-h-screen">
+        <div style={{backgroundColor: '#dcbff6'}}>
+            <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8" style={{backgroundColor: '#e2caf8'}}>
+                <h3 style={{textAlign: "center"}}>
+                    Email: <a href="mailto:tsumiksh@gmail.com">tsumiksh@gmail.com</a><br/>
+                    Linkedin: <a href="www.linkedin.com/in/sumiksh-trehan">www.linkedin.com/in/sumiksh-trehan</a>
+                </h3>
+            </div>
             <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
                 <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
                     <div>
-                        <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+                        <h4 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
                             Highly Motivated Programmer Analyst / IT Specialist
-                        </h2>
+                        </h4>
                         <p className="mt-3 max-w-3xl text-lg text-gray-500">
                             Dedicated and results-driven Programmer Analyst/IT Specialist with a passion for driving success in dynamic, client-focused environments. Proven expertise in software application development, hardware configuration, and top-tier client support. Adept at problem-solving, collaborating in teams, and meeting tight deadlines.
                         </p>

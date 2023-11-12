@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import ExcelitasTech from './Excelitas';
+import ExcelitasTech from './excelitas';
 import WonderlandCanada from './Wonderland';
 import ClaretAsset from './Claret';
 import Button from 'react-bootstrap/Button';

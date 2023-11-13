@@ -1,19 +1,16 @@
-import { Inter } from 'next/font/google'
-import Button from 'react-bootstrap/Button';
 import Overall from '../components/Overall';
 import NameBar from '../components/NameBar';
 import DownloadResume from '../components/DownloadResume';
-import { useEffect } from 'react';
 
 export default function Home() {
-  const handleButtonClick = () => {
-    alert('Button clicked!');
-  };
+  // const handleButtonClick = () => {
+  //   alert('Button clicked!');
+  // };
 
-  useEffect(() => {
-    const audio = new Audio('/path/to/audio/file.mp3');
-    audio.play();
-  }, []);
+  // useEffect(() => {
+  //   const audio = new Audio('/path/to/audio/file.mp3');
+  //   audio.play();
+  // }, []);
 
   return (
     <>

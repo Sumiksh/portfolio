@@ -36,9 +36,16 @@ export default function NameBar () {
                     color: #e6e600;
                 }
 
-                @media (max-width: 1110px) {
+                @media (max-width: 1000px) {
                     p {
                         font-size: 2rem;
+                        color: #e6e600;
+                    }
+                }
+
+                @media (max-width: 740px) {
+                    p {
+                        font-size: 1rem;
                         color: #e6e600;
                     }
                 }
